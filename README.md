@@ -1,6 +1,7 @@
 # ChamaPro - Collaborative Savings Platform 🚀
 
-![ChamaPro Logo](https://via.placeholder.com/150x50?text=ChamaPro+Logo) <!-- Replace with your logo if available -->
+<img src="landing%20page.jpg" alt="ChamaPro Logo" width="300"/>
+
 
 ChamaPro is a modern digital platform for managing "chamas" (rotating savings groups) with features for contribution tracking, group management, and financial accountability - all designed to make collective saving easier and more engaging.
 
@@ -51,7 +52,7 @@ The application is currently deployed at:
 ## Screenshots 📸
 
 ### Landing Page
-![Landing Page](landing page.jpg) <!-- Replace with actual path -->
+![Landing Page](landing%20page.jpg)
 
 ### User Authentication
 <div style="display: flex; gap: 10px;">
