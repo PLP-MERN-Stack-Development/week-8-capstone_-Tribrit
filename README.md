@@ -1,52 +1,153 @@
-# MERN Stack Capstone Project
+# ChamaPro - Collaborative Savings Platform 🚀
 
-This assignment focuses on designing, developing, and deploying a comprehensive full-stack MERN application that showcases all the skills you've learned throughout the course.
+![ChamaPro Logo](https://via.placeholder.com/150x50?text=ChamaPro+Logo) <!-- Replace with your logo if available -->
 
-## Assignment Overview
+ChamaPro is a modern digital platform for managing "chamas" (rotating savings groups) with features for contribution tracking, group management, and financial accountability - all designed to make collective saving easier and more engaging.
 
-You will:
-1. Plan and design a full-stack MERN application
-2. Develop a robust backend with MongoDB, Express.js, and Node.js
-3. Create an interactive frontend with React.js
-4. Implement testing across the entire application
-5. Deploy the application to production
+## Live Demo 🌐
 
-## Getting Started
+The application is currently deployed at:  
+🔗 [https://chamapro.kesug.com/](https://chamapro.kesug.com/)
 
-1. Accept the GitHub Classroom assignment
-2. Clone the repository to your local machine
-3. Follow the instructions in the `Week8-Assignment.md` file
-4. Plan, develop, and deploy your capstone project
+## Table of Contents
+- [Features](#features-)
+- [Screenshots](#screenshots-)
+- [Demo Video](#demo-video-)
+- [Technology Stack](#technology-stack-)
+- [Installation](#installation-)
+- [Configuration](#configuration-)
+- [Running the App](#running-the-app-)
+- [Testing](#testing-)
+- [Contributing](#contributing-)
+- [License](#license-)
 
-## Files Included
+## Features ✨
 
-- `Week8-Assignment.md`: Detailed assignment instructions
+### Core Features (MVP)
+- **Group Creation & Membership**
+  - Create chamas with custom names, descriptions, and goals
+  - Role-based access (Admins/Members)
+  - Invite system for new members
 
-## Requirements
+- **Contribution Tracking**
+  - Set periodic contribution targets
+  - Payment proof uploads
+  - Visual progress tracking with interactive charts
 
+- **Activity Feed**
+  - Real-time updates on member contributions
+  - Achievement badges and recognition system
+
+- **Accountability Tools**
+  - Automated reminders for contributions
+  - Peer accountability features
+
+### Premium Features
+- Advanced data visualization
+- Custom group themes
+- Detailed analytics dashboards
+- PDF report generation
+
+## Screenshots 📸
+
+### Landing Page
+![Landing Page](./landing-page.jpg) <!-- Replace with actual path -->
+
+### User Authentication
+<div style="display: flex; gap: 10px;">
+  <img src="./login.png" alt="Login Page" width="45%">
+  <img src="./register.png" alt="Registration Page" width="45%">
+</div>
+
+### Dashboard
+![Dashboard](./dashboard.png)
+
+## Demo Video 🎥
+
+Watch our full application walkthrough:
+
+[![ChamaPro Demo Video](./demo.mp4)](./demo.mp4) <!-- This will embed a clickable thumbnail -->
+
+## Technology Stack 💻
+
+### Frontend
+- React.js
+- Redux (State Management)
+- Axios (HTTP Client)
+- Chart.js (Data Visualization)
+- Tailwind CSS (Styling)
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB (Database)
+- Mongoose (ODM)
+- JWT (Authentication)
+
+### DevOps
+- Git (Version Control)
+- Render/Vercel (Deployment)
+- Postman (API Testing)
+
+## Installation ⚙️
+
+### Prerequisites
 - Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
+- MongoDB (local or Atlas cluster)
 - npm or yarn
-- Git and GitHub account
-- Accounts on deployment platforms (Render/Vercel/Netlify/etc.)
 
-## Project Ideas
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/chamapro.git
+   cd chamapro
 
-The `Week8-Assignment.md` file includes several project ideas, but you're encouraged to develop your own idea that demonstrates your skills and interests.
 
-## Submission
 
-Your project will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+Configuration ⚙️
+Create a .env file in the server directory with the following variables:
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+PORT=5000
+CLIENT_URL=http://localhost:3000
 
-1. Commit and push your code regularly
-2. Include comprehensive documentation
-3. Deploy your application and add the live URL to your README.md
-4. Create a video demonstration and include the link in your README.md
 
-## Resources
 
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [Express.js Documentation](https://expressjs.com/)
-- [React Documentation](https://react.dev/)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [GitHub Classroom Guide](https://docs.github.com/en/education/manage-coursework-with-github-classroom) 
+Running the App ▶️
+Start the backend server:
+npm run dev
+
+
+The application should now be running on http://localhost:3000
+
+Testing 🧪
+To run tests for both frontend and backend:
+
+# Backend tests
+cd server
+npm test
+
+# Frontend tests
+cd ../client
+npm test
+
+
+Contributing 🤝
+We welcome contributions! Please follow these steps:
+
+Fork the project
+
+Create your feature branch (git checkout -b feature/AmazingFeature)
+
+Commit your changes (git commit -m 'Add some AmazingFeature')
+
+Push to the branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+License 📄
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+<div align="center"> <p>Built with ❤️ by Brito</p> <p>© 2023 ChamaPro - All rights reserved</p> </div> ```
+
