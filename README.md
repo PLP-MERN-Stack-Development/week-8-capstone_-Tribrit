@@ -56,7 +56,7 @@ The application is currently deployed at:
 
 ### User Authentication
 <div style="display: flex; gap: 10px;">
-  <img src="./login.png" alt="Login Page" width="45%">
+  <img src="login%20page.png" alt="Login Page" width="45%">
   <img src="./register.png" alt="Registration Page" width="45%">
 </div>
 
@@ -67,7 +67,8 @@ The application is currently deployed at:
 
 Watch my full application walkthrough:
 
-[![ChamaPro Demo Video](./demo.mp4)](./demo.mp4) <!-- This will embed a clickable thumbnail -->
+[![Watch the Demo](demo-thumbnail.png)](demo.mp4)
+
 
 ## Technology Stack 💻
 
