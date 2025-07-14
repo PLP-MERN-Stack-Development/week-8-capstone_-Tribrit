@@ -51,7 +51,7 @@ The application is currently deployed at:
 ## Screenshots 📸
 
 ### Landing Page
-![Landing Page](./landing-page.jpg) <!-- Replace with actual path -->
+![Landing Page](landing page.jpg) <!-- Replace with actual path -->
 
 ### User Authentication
 <div style="display: flex; gap: 10px;">
@@ -64,7 +64,7 @@ The application is currently deployed at:
 
 ## Demo Video 🎥
 
-Watch our full application walkthrough:
+Watch my full application walkthrough:
 
 [![ChamaPro Demo Video](./demo.mp4)](./demo.mp4) <!-- This will embed a clickable thumbnail -->
 
